@@ -11,6 +11,10 @@ def style_background_home():
                     background: #5865F2 !important;
                 }
 
+                .stApp div[data-testid="stColumn"] h2 {
+                    color: #000 !important;
+                }
+
                 .stApp div[data-testid="stColumn"]{
                     background-color:#E0E3FF !important;
                     padding:2.5rem !important;
@@ -71,11 +75,15 @@ def style_base_layout():
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
             }
+
+            
                 
             h3, h4, p {
                 font-family: 'Outfit', sans-serif;    
-            }
                 
+            }
+
+            
 
             button{
                 border-radius: 1.5rem !important;
